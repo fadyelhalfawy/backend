@@ -1,6 +1,9 @@
 const mysql = require('mysql');
 const express = require('express');
+const cors = require('cors');
+
 const app = express();
+app.use(cors());
 
 
 const db = mysql.createConnection({
@@ -10,24 +13,24 @@ const db = mysql.createConnection({
   database: 'kb_itworx',
 });
 
-db.connect(() => {
-  console.log('MySQL Connected');
+db.connect((err) => {
+    if(err) return console.log("Error");
+    console.log('MySQL Connected');
 });
 
-app.get('/advanced_analytics', (req, res) => {
+app.get('/nodejs', (req, res) => {
     console.log(req.query);
     
     // const { practice, title } = req.query;
     
-    let sqlPractice = `SELECT * FROM advanced_analytics`;
-    console.log(sqlPractice);
+    let sql = `SELECT * FROM nodejs WHERE Title = 'Software Engineer'`
     // let sqlTitle = `SELECT * FROM ${practice} WHERE Title = ${title}`;
     // let sql = console.log(`Enter Database... and ${practice} and ${title}`);
     
     
-    db.query(sql, (err, result) => {
-      if (err) return res.json('Error');
-      return res.send(result);
+    db.query(sql, (err, data) => {
+      if (err) return res.json(err.message);
+      return res.json(data);
     });
 })
 
