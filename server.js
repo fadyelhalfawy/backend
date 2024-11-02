@@ -18,18 +18,16 @@ db.connect((err) => {
     console.log('MySQL Connected');
 });
 
-app.get('/nodejs', (req, res) => {
-    console.log(req.query);
+app.get('/tshape', (req, res) => {
+    const { table, title } = req.query;
     
-    // const { practice, title } = req.query;
-    
-    let sql = `SELECT * FROM nodejs WHERE Title = 'Software Engineer'`
-    // let sqlTitle = `SELECT * FROM ${practice} WHERE Title = ${title}`;
-    // let sql = console.log(`Enter Database... and ${practice} and ${title}`);
+    let sql = `SELECT * FROM ${table} WHERE Title = '${title}'`;
+    console.log(sql);
     
     
     db.query(sql, (err, data) => {
       if (err) return res.json(err.message);
+      console.log(data);
       return res.json(data);
     });
 })
