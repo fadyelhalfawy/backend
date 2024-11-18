@@ -24,12 +24,8 @@ app.get('/tshape', async (req, res) => {
         const sql = `SELECT * FROM ${table} WHERE Title = '${title}'`;
         db.query(sql, (err, expValue) => {
         if (err) return res.status(500).json({ error: err.message });
-        // console.log(sql);
-        
-        
             
         const sqlNotes = `SELECT * FROM ${table} WHERE Title = "Notes"`;
-        // console.log(sqlNotes);
         
         db.query(sqlNotes, (err, notesValue) => {
         if (err) return res.status(500).json({ error: err.message });
