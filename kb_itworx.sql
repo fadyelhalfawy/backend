@@ -71,6 +71,7 @@ CREATE TABLE `advanced_analytics` (
 
 INSERT INTO `advanced_analytics` (`Title`, `Chatbots_Document_Classification`, `Chatbots_Named_Entity_Recognition`, `Chatbots_NLP`, `Data_Architecture`, `Data_Engineering`, `Data_Modeling_and_Data_Lake_modeling`, `Data_Modeling_and_Entity_Models`, `Data_Modeling_No_SQL_modeling`, `Data_Modeling_Relational_modeling`, `Data_Modeling_Warehouse_modeling`, `Data_Ops_CICD`, `Data_Ops_Operationalization`, `Data_Preparation`, `Data_Quality_Business_Rules_Engine`, `Data_Quality`, `Data_Virtualization`, `Data_Visualization_Semantic_Modeling`, `Databases_SQL`, `GIS`, `Graph_Database_Cipher_Query_Language`, `Graph_modeling_in_Graph_Database`, `Graphs_and_Graph_traversals_in_Graph_Database`, `Graph_Database_OWL`, `Classification_Algorithms_in_Machine_learning`, `Clustering_algorithms_in_Machine_learning`, `Machine_learning_Deep_Learning`, `Machine_learning_Evaluation_of_algorithms`, `Machine_learning_Regression`, `MLOps`, `NewSQL`, `NoSQL`, `RPA`, `Basic_Statistics`, `Inferential_Statistics`) VALUES
 ('Advanced Analytics Consultant', NULL, NULL, NULL, 'Expert', 'Expert', 'Expert', 'Expert', 'Expert', 'Expert', 'Expert', 'Expert', 'Expert', 'Expert', 'Expert', 'Expert', 'Expert', 'Expert', 'Expert', NULL, NULL, NULL, NULL, NULL, 'Expert', 'Expert', 'Expert', 'Expert', 'Expert', 'Expert', NULL, 'Expert', 'Expert', 'Expert', 'Expert'),
+('Notes', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Nginx/Apache', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
 ('Advanced Analytics Engineer', 'Beginner', 'Beginner', 'Beginner', 'Beginner', 'Beginner', NULL, NULL, NULL, 'Beginner', 'Beginner', NULL, 'Beginner', 'Intermediate', NULL, NULL, NULL, NULL, 'Expert', NULL, NULL, NULL, NULL, NULL, 'Intermediate', 'Beginner', NULL, 'Intermediate', 'Intermediate', NULL, NULL, NULL, 'Beginner', 'Intermediate', 'Beginner'),
 ('Lead Advanced Analytics Engineer', NULL, NULL, NULL, 'Expert', 'Expert', 'Beginner', 'Beginner', 'Intermediate', 'Expert', 'Expert', 'Intermediate', 'Expert', 'Expert', 'Expert', 'Expert', 'Beginner', 'Expert', 'Expert', NULL, NULL, NULL, NULL, NULL, 'Expert', 'Expert', 'Intermediate', 'Expert', 'Expert', 'Intermediate', NULL, 'Intermediate', 'Expert', 'Expert', 'Intermediate'),
 ('Principal Advanced Analytics Engineer', NULL, NULL, NULL, 'Expert', 'Expert', 'Intermediate', 'Intermediate', 'Expert', 'Expert', 'Expert', 'Expert', 'Expert', 'Expert', 'Expert', 'Expert', 'Intermediate', 'Expert', 'Expert', NULL, NULL, NULL, NULL, NULL, 'Expert', 'Expert', 'Expert', 'Expert', 'Expert', 'Expert', NULL, 'Expert', 'Expert', 'Expert', 'Expert'),
@@ -909,92 +910,11 @@ INSERT INTO `internal_service_desk` (`Title`, `Microsoft_Operating_Systems`, `Mi
 
 -- --------------------------------------------------------
 
---
--- Table structure for table `mobile`
---
 
-CREATE TABLE `mobile` (
-  `Title` varchar(32) NOT NULL,
-  `Android_Java` varchar(50) DEFAULT NULL,
-  `Android_Framework` varchar(50) DEFAULT NULL,
-  `Android_Studio_IDE` varchar(50) DEFAULT NULL,
-  `Android_Kotlin` varchar(50) DEFAULT NULL,
-  `Objective_C` varchar(50) DEFAULT NULL,
-  `Swift` varchar(50) DEFAULT NULL,
-  `iOS_Framework` varchar(50) DEFAULT NULL,
-  `Xcode_IDE` varchar(50) DEFAULT NULL,
-  `Flutter_Dart` varchar(50) DEFAULT NULL,
-  `UI_Design_Principles` varchar(50) DEFAULT NULL,
-  `Flutter_State_Management` varchar(50) DEFAULT NULL,
-  `Flutter_Framework` varchar(50) DEFAULT NULL,
-  `Xamarin_Forms` varchar(50) DEFAULT NULL,
-  `Xamarin_iOS_Xamarin_Android` varchar(50) DEFAULT NULL,
-  `Xamarin_C_Sharp` varchar(50) DEFAULT NULL,
-  `Dot_NET_MAUI` varchar(50) DEFAULT NULL,
-  `Material_Design` varchar(50) DEFAULT NULL,
-  `OOP_Concepts` varchar(50) DEFAULT NULL,
-  `Design_Patterns` varchar(50) DEFAULT NULL,
-  `Data_Structures` varchar(50) DEFAULT NULL,
-  `Android_Jetpack_Compose_UI` varchar(50) DEFAULT NULL,
-  `Swift_UI` varchar(50) DEFAULT NULL,
-  `Algorithms` varchar(50) DEFAULT NULL,
-  `React_Native_Framework` varchar(50) DEFAULT NULL,
-  `React_Native_State_Management` varchar(50) DEFAULT NULL,
-  `React_Native_TypeScript` varchar(50) DEFAULT NULL,
-  `VSCode_IDE` varchar(50) DEFAULT NULL,
-  `DevOps_CI_CD` varchar(50) DEFAULT NULL,
-  `Mobile_application_Architecture_Design` varchar(50) DEFAULT NULL,
-  `Cloud_based_mobile_backend_services` varchar(50) DEFAULT NULL,
-  `Backend_Integration_and_APIs` varchar(50) DEFAULT NULL,
-  `Authentication_and_Authorization` varchar(50) DEFAULT NULL,
-  `Encryption_and_Secure_Storage` varchar(50) DEFAULT NULL,
-  `Secure_Coding_Practices` varchar(50) DEFAULT NULL,
-  `Unit_Testing` varchar(50) DEFAULT NULL,
-  `Integration_Testing` varchar(50) DEFAULT NULL,
-  `UI_Testing` varchar(50) DEFAULT NULL,
-  `Accessibility` varchar(50) DEFAULT NULL,
-  `App_Store_Guidelines_and_Submission_Process` varchar(50) DEFAULT NULL,
-  `Google_Play_Console_Guidelines_and_Submission_Process` varchar(50) DEFAULT NULL,
-  `TestFlight_for_Beta_Testing` varchar(50) DEFAULT NULL,
-  `Machine_Learning_on_Mobile` varchar(50) DEFAULT NULL,
-  `Augmented_Reality` varchar(50) DEFAULT NULL,
-  `Accessibility_Best_Practices` varchar(50) DEFAULT NULL,
-  `Kotlin_Multiplatform` varchar(50) DEFAULT NULL,
-  `Owasp_Top_10` varchar(50) DEFAULT NULL,
-  `Phonegap_Cordova` varchar(50) DEFAULT NULL,
-  `Ionic` varchar(50) DEFAULT NULL,
-  `Android_Auto_Development` varchar(50) DEFAULT NULL,
-  `CarPlay_Development` varchar(50) DEFAULT NULL,
-  `Android_Automotive` varchar(50) DEFAULT NULL,
-  `Wear_OS_Android` varchar(50) DEFAULT NULL,
-  `Watch_OS_Apple` varchar(50) DEFAULT NULL,
-  `Samsung_Wear_OS_Tizen` varchar(50) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-
---
--- Dumping data for table `mobile`
---
-
-INSERT INTO `mobile` (`Title`, `Android_Java`, `Android_Framework`, `Android_Studio_IDE`, `Android_Kotlin`, `Objective_C`, `Swift`, `iOS_Framework`, `Xcode_IDE`, `Flutter_Dart`, `UI_Design_Principles`, `Flutter_State_Management`, `Flutter_Framework`, `Xamarin_Forms`, `Xamarin_iOS_Xamarin_Android`, `Xamarin_C_Sharp`, `Dot_NET_MAUI`, `Material_Design`, `OOP_Concepts`, `Design_Patterns`, `Data_Structures`, `Android_Jetpack_Compose_UI`, `Swift_UI`, `Algorithms`, `React_Native_Framework`, `React_Native_State_Management`, `React_Native_TypeScript`, `VSCode_IDE`, `DevOps_CI_CD`, `Mobile_application_Architecture_Design`, `Cloud_based_mobile_backend_services`, `Backend_Integration_and_APIs`, `Authentication_and_Authorization`, `Encryption_and_Secure_Storage`, `Secure_Coding_Practices`, `Unit_Testing`, `Integration_Testing`, `UI_Testing`, `Accessibility`, `App_Store_Guidelines_and_Submission_Process`, `Google_Play_Console_Guidelines_and_Submission_Process`, `TestFlight_for_Beta_Testing`, `Machine_Learning_on_Mobile`, `Augmented_Reality`, `Accessibility_Best_Practices`, `Kotlin_Multiplatform`, `Owasp_Top_10`, `Phonegap_Cordova`, `Ionic`, `Android_Auto_Development`, `CarPlay_Development`, `Android_Automotive`, `Wear_OS_Android`, `Watch_OS_Apple`, `Samsung_Wear_OS_Tizen`) VALUES
-('Lead Software Engineer - L1', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Beginner', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Beginner', 'Beginner', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Beginner', 'N/A', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Beginner', 'Beginner', 'Intermediate', 'Beginner', 'Intermediate', 'N/A', 'N/A', 'Beginner', 'Beginner', 'Beginner', 'Beginner', 'Beginner', 'Beginner'),
-('Lead Software Engineer - L2', 'Intermediate', 'Advanced', 'Advanced', 'Advanced', 'Beginner', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Intermediate', 'Intermediate', 'Intermediate', 'Advanced', 'Intermediate', 'Advanced', 'Advanced', 'Advanced', 'Intermediate', 'Intermediate', 'Intermediate', 'Advanced', 'Intermediate', 'Advanced', 'Advanced', 'Advanced', 'Intermediate', 'Intermediate', 'N/A', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Beginner', 'Beginner', 'Intermediate', 'Beginner', 'Intermediate', 'Beginner', 'Beginner', 'Beginner', 'Beginner', 'Beginner', 'Beginner', 'Beginner', 'Beginner'),
-('Lead Software Engineer - L3', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Beginner', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Intermediate', 'N/A', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Intermediate', 'Intermediate', 'Advanced', 'Intermediate', 'Intermediate', 'Beginner', 'Beginner', 'Beginner', 'Beginner', 'Beginner', 'Beginner', 'Beginner', 'Beginner'),
-('Notes', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'eg. GraphQL, RESTAPIs, gRPC', 'eg. OAuth, JWT', NULL, NULL, NULL, NULL, 'eg. Espresso for Android, XCTest for iOS', NULL, NULL, NULL, NULL, 'eg. TensorFlow Lite, Core ML', 'eg. ARKit for iOS, ARCore for Android', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
-('Principal Software Engineer - P1', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Beginner', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Beginner', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Intermediate', 'Advanced', 'Beginner', 'Beginner', 'Beginner', 'Beginner', 'Beginner', 'Beginner', 'Beginner', 'Beginner'),
-('Principal Software Engineer - P2', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Beginner', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Intermediate', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Beginner', 'Beginner', 'Beginner', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate'),
-('Principal Software Engineer - P3', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Beginner', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Intermediate', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Beginner', 'Beginner', 'Beginner', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate'),
-('Senior Software Engineer', 'Beginner', 'Intermediate', 'Intermediate', 'Intermediate', 'N/A', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Beginner', 'Beginner', 'Beginner', 'Intermediate', 'Beginner', 'Intermediate', 'Intermediate', 'Intermediate', 'Beginner', 'Beginner', 'Beginner', 'Intermediate', 'Beginner', 'Intermediate', 'Intermediate', 'Intermediate', 'Beginner', 'N/A', 'N/A', 'Beginner', 'Beginner', 'Beginner', 'Beginner', 'N/A', 'N/A', 'N/A', 'N/A', 'Beginner', 'Beginner', 'Beginner', 'N/A', 'N/A', 'Beginner', 'Beginner', 'Beginner', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A'),
-('Senior Technical Consultant', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Beginner', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Beginner', 'Beginner', 'Beginner', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced'),
-('Software Engineer', 'N/A', 'Beginner', 'Beginner', 'Beginner', 'N/A', 'Beginner', 'Beginner', 'Beginner', 'Beginner', 'Beginner', 'Beginner', 'Beginner', 'N/A', 'N/A', 'Beginner', 'N/A', 'Beginner', 'Beginner', 'Beginner', 'Beginner', 'Beginner', 'Beginner', 'Beginner', 'Beginner', 'Beginner', 'Beginner', 'Beginner', 'N/A', 'N/A', 'N/A', 'Beginner', 'Beginner', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A'),
-('Technical Consultant', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Beginner', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Beginner', 'Beginner', 'Beginner', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced');
-
--- --------------------------------------------------------
-
---
 -- Table structure for table `mobile33`
 --
 
-CREATE TABLE `mobile33` (
+CREATE TABLE `mobile` (
   `Title` varchar(32) NOT NULL,
   `Android_Java` varchar(12) DEFAULT NULL,
   `Android_Framework` varchar(12) DEFAULT NULL,
@@ -1005,7 +925,6 @@ CREATE TABLE `mobile33` (
   `iOS_Framework` varchar(12) DEFAULT NULL,
   `Xcode_IDE` varchar(12) DEFAULT NULL,
   `Flutter_Dart` varchar(12) DEFAULT NULL,
-  `UI_Design_Principles` varchar(12) DEFAULT NULL,
   `Flutter_State_Management` varchar(12) DEFAULT NULL,
   `Flutter_Framwork` varchar(12) DEFAULT NULL,
   `Xamarin_Forms` varchar(12) DEFAULT NULL,
@@ -1026,25 +945,55 @@ CREATE TABLE `mobile33` (
   `DevOps_CICD` varchar(12) DEFAULT NULL,
   `Mobile_application_Architecture_design` varchar(12) DEFAULT NULL,
   `Mobile_backend_development` varchar(12) DEFAULT NULL,
-  `cloud_based_mobile_backend_services` varchar(12) DEFAULT NULL
+  `Cloud_Based_Mobile_Backend_Services` varchar(12) DEFAULT NULL,
+  `Backend_Integration_and_APIs_(GraphQL,REST APIs,gRPC)` varchar(12) DEFAULT NULL,
+  `Authentication_&_Authorization_in_Mobile_Apps_(OAuth, JWT)` varchar(12) DEFAULT NULL,
+  `Encryption_and_Secure_Storage` varchar(12) DEFAULT NULL,
+  `Mobile_Security_Practices_and_Secure_Coding` varchar(12) DEFAULT NULL,
+  `Unit_Testing_Basics` varchar(12) DEFAULT NULL,
+  `Integration_Testing_Basics` varchar(12) DEFAULT NULL,
+  `UI_Testing_(Espresso for Android, XCTest for iOS)` varchar(12) DEFAULT NULL,
+  `Accessibility` varchar(12) DEFAULT NULL,
+  `App_Store_Guidelines_and_Submission_Process` varchar(12) DEFAULT NULL,
+  `Google_Play_Console_Guidelines_and_Submission_Process` varchar(12) DEFAULT NULL,
+  `TestFlight_for_Beta_Testing` varchar(12) DEFAULT NULL,
+  `Machine_Learning_on_Mobile_(TensorFlow Lite, Core ML, and Beyond)` varchar(12) DEFAULT NULL,
+  `Augmented_Reality_(ARKit for iOS, ARCore for Android)` varchar(12) DEFAULT NULL,
+  `Kotlin_Multiplatform_(KMP)` varchar(12) DEFAULT NULL,
+  `Owasp_Top_10` varchar(12) DEFAULT NULL,
+  `phonegap_/_Cordova` varchar(12) DEFAULT NULL,
+  `Ionic` varchar(12) DEFAULT NULL,
+  `Unit_Testing_For_React_Native` varchar(12) DEFAULT NULL,
+  `Integration_Testing_For_React_Native` varchar(12) DEFAULT NULL,
+  `Unit_Testing_For_Android` varchar(12) DEFAULT NULL,
+  `Integration_Testing_For_Android` varchar(12) DEFAULT NULL,
+  `Unit_Testing_For_IOS` varchar(12) DEFAULT NULL,
+  `Integration_Testing_For_IOS` varchar(12) DEFAULT NULL,
+  `SOLID_Principles_For_React_Native` varchar(12) DEFAULT NULL,
+  `SOLID_Principles_For_Android` varchar(12) DEFAULT NULL,
+  `SOLID_Principles_For_IOS` varchar(12) DEFAULT NULL,
+  `Clean_Architecture_For_Android` varchar(12) DEFAULT NULL,
+  `Clean_Architecture_For_IOS` varchar(12) DEFAULT NULL,
+  `Clean_Architecture_For_React_Native` varchar(12) DEFAULT NULL,
+  `Mobile_Performance_Optimization` varchar(12) DEFAULT NULL,
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Dumping data for table `mobile33`
+-- Dumping data for table `mobile`
 --
 
-INSERT INTO `mobile33` (`Title`, `Android_Java`, `Android_Framework`, `Android_Studio_IDE`, `Android_Kotlin`, `Objective_C`, `Swift`, `iOS_Framework`, `Xcode_IDE`, `Flutter_Dart`, `UI_Design_Principles`, `Flutter_State_Management`, `Flutter_Framwork`, `Xamarin_Forms`, `Xamarin_iOS_Xamarin_Android`, `Xamarin_C_Sharp`, `Dot_NET_MAUI`, `Material_Design`, `OOP_Concepts`, `Design_Patterns`, `Data_Structures`, `Android_Jetpack_Compose_UI`, `Swift_UI`, `Algorithms`, `React_Native_Framwork`, `React_Native_State_Management`, `React_Native_Type_Script`, `VSCode_IDE`, `DevOps_CICD`, `Mobile_application_Architecture_design`, `Mobile_backend_development`, `cloud_based_mobile_backend_services`) VALUES
-('Lead Software Engineer - L1', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Beginner', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Beginner', 'Beginner', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Beginner', NULL, NULL),
-('Lead Software Engineer - L2', 'Intermediate', 'Advanced', 'Advanced', 'Advanced', 'Beginner', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Intermediate', 'Intermediate', 'Intermediate', 'Advanced', 'Intermediate', 'Advanced', 'Advanced', 'Advanced', 'Intermediate', 'Intermediate', 'Intermediate', 'Advanced', 'Intermediate', 'Advanced', 'Advanced', 'Advanced', 'Intermediate', 'Intermediate', NULL, NULL),
-('Lead Software Engineer - L3', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Beginner', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Intermediate', NULL, NULL),
-('Notes', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
-('Principal Software Engineer - P1', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Beginner', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Beginner', 'Beginner'),
-('Principal Software Engineer - P2', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Beginner', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Intermediate', 'Intermediate'),
-('Principal Software Engineer - P3', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Beginner', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Intermediate', 'Intermediate'),
-('Senior Software Engineer', 'Beginner', 'Intermediate', 'Intermediate', 'Intermediate', NULL, 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Beginner', 'Beginner', 'Beginner', 'Intermediate', 'Beginner', 'Intermediate', 'Intermediate', 'Intermediate', 'Beginner', 'Beginner', 'Beginner', 'Intermediate', 'Beginner', 'Intermediate', 'Intermediate', 'Intermediate', 'Beginner', NULL, NULL, NULL),
-('Senior Technical Consultant', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Beginner', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced'),
-('Software Engineer', NULL, 'Beginner', 'Beginner', 'Intermediate', NULL, 'Intermediate', 'Beginner', 'Beginner', 'Intermediate', 'Beginner', 'Beginner', 'Beginner', NULL, NULL, 'Beginner', NULL, 'Beginner', 'Intermediate', 'Beginner', 'Beginner', NULL, NULL, 'Beginner', 'Beginner', 'Beginner', 'Beginner', 'Beginner', NULL, NULL, NULL, NULL),
-('Technical Consultant', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Beginner', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced');
+INSERT INTO `mobile` (`Title`, `Android_Java`, `Android_Framework`, `Android_Studio_IDE`, `Android_Kotlin`, `Objective_C`, `Swift`, `iOS_Framework`, `Xcode_IDE`, `Flutter_Dart`, `Flutter_State_Management`, `Flutter_Framwork`, `Xamarin_Forms`, `Xamarin_iOS_Xamarin_Android`, `Xamarin_C_Sharp`, `Dot_NET_MAUI`, `Material_Design`, `OOP_Concepts`, `Design_Patterns`, `Data_Structures`, `Android_Jetpack_Compose_UI`, `Swift_UI`, `Algorithms`, `React_Native_Framwork`, `React_Native_State_Management`, `React_Native_Type_Script`, `VSCode_IDE`, `DevOps_CICD`, `Mobile_application_Architecture_design`, `Mobile_backend_development`, `cloud_based_mobile_backend_services`, `Backend_Integration_and_APIs_(GraphQL,REST APIs,gRPC)`, `Authentication_&_Authorization_in_Mobile_Apps_(OAuth, JWT)`, `Encryption_and_Secure_Storage`, `Mobile_Security_Practices_and_Secure_Coding`, `Unit_Testing_Basics`,`Integration_Testing_Basics`, `UI_Testing_(Espresso for Android, XCTest for iOS)`, `Accessibility`, `App_Store_Guidelines_and_Submission_Process`, `Google_Play_Console_Guidelines_and_Submission_Process`, `TestFlight_for_Beta_Testing`, `Machine_Learning_on_Mobile_(TensorFlow Lite, Core ML, and Beyond)`, `Augmented_Reality_(ARKit for iOS, ARCore for Android)`, `Kotlin_Multiplatform_(KMP)`, `Owasp_Top_10`, `phonegap_/_Cordova`, `Ionic`, `Unit_Testing_For_React_Native`, `Integration_Testing_For_React_Native`, `Unit_Testing_For_Android`, `Integration_Testing_For_Android`, `Unit_Testing_For_IOS`, `Integration_Testing_For_IOS`, `SOLID_Principles_For_React_Native`, `SOLID_Principles_For_Android`, `SOLID_Principles_For_IOS`, `Clean_Architecture_For_Android`, `Clean_Architecture_For_IOS`, `Clean_Architecture_For_React_Native`, `Mobile_Performance_Optimization`) VALUES
+('Lead Software Engineer - L1', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Beginner', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Beginner', 'Beginner', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Beginner', NULL, 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Beginner', 'Beginner', 'Beginner', 'Intermediate', NULL, NULL, 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Beginner', 'Beginner', 'Beginner', 'Intermediate'),
+('Lead Software Engineer - L2', 'Intermediate', 'Advanced', 'Advanced', 'Advanced', 'Beginner', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Intermediate', 'Intermediate', 'Intermediate', 'Advanced', 'Intermediate', 'Advanced', 'Advanced', 'Advanced', 'Intermediate', 'Intermediate', 'Intermediate', 'Advanced', 'Intermediate', 'Advanced', 'Advanced', 'Advanced', 'Intermediate', 'Intermediate', NULL, 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Beginner', 'Beginner', 'Beginner', 'Intermediate', 'Beginner', 'Beginner', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Advanced', 'Advanced', 'Advanced', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate'),
+('Lead Software Engineer - L3', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Beginner', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Intermediate', NULL, 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Beginner', 'Beginner', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Intermediate', 'Intermediate', 'Intermediate', 'Advanced'),
+('Notes', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
+('Principal Software Engineer - P1', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Beginner', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Beginner', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Intermediate', 'Advanced', 'Beginner', 'Beginner', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced'),
+('Principal Software Engineer - P2', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Beginner', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Intermediate', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Intermediate', 'Intermediate', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced'),
+('Principal Software Engineer - P3', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Beginner', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Intermediate', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Intermediate', 'Intermediate', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced'),
+('Senior Software Engineer', 'Beginner', 'Intermediate', 'Intermediate', 'Intermediate', NULL, 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Intermediate', 'Beginner', 'Beginner', 'Beginner', 'Intermediate', 'Beginner', 'Intermediate', 'Intermediate', 'Intermediate', 'Beginner', 'Beginner', 'Beginner', 'Intermediate', 'Beginner', 'Intermediate', 'Intermediate', 'Intermediate', 'Beginner', NULL, NULL, 'Beginner', 'Beginner', 'Beginner', 'Beginner', 'Beginner', 'Beginner', 'Beginner', 'Beginner', 'Beginner', 'Beginner', 'Beginner', NULL, NULL, 'Beginner', 'Beginner', NULL, NULL, 'Beginner', 'Beginner', 'Beginner', 'Beginner', 'Beginner', 'Beginner', 'Intermediate', 'Intermediate', 'Intermediate', 'Beginner', 'Beginner', 'Beginner', 'Beginner'),
+('Senior Technical Consultant', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Beginner', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Intermediate', 'Intermediate', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced'),
+('Software Engineer', NULL, 'Beginner', 'Beginner', 'Beginner', NULL, 'Beginner', 'Beginner', 'Beginner', 'Beginner', 'Beginner', 'Beginner', 'Beginner', NULL, NULL, 'Beginner', NULL, 'Beginner', 'Beginner', 'Beginner', 'Beginner', 'Beginner', 'Beginner', 'Beginner', 'Beginner', 'Beginner', 'Beginner', 'Beginner', NULL, NULL, NULL, 'Beginner', 'Beginner', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Beginner', 'Beginner', 'Beginner', NULL, NULL, NULL, NULL),
+('Technical Consultant', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Beginner', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Intermediate', 'Intermediate', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced', 'Advanced');
 
 -- --------------------------------------------------------
 
