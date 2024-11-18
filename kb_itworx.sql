@@ -911,7 +911,7 @@ INSERT INTO `internal_service_desk` (`Title`, `Microsoft_Operating_Systems`, `Mi
 -- --------------------------------------------------------
 
 
--- Table structure for table `mobile33`
+-- Table structure for table `mobile`
 --
 
 CREATE TABLE `mobile` (
