@@ -18,20 +18,33 @@ db.connect((err) => {
     console.log('MySQL Connected');
 });
 
-app.get('/tshape', (req, res) => {
+app.get('/tshape', async (req, res) => {
     const { table, title } = req.query;
+    try{
+        const sql = `SELECT * FROM ${table} WHERE Title = '${title}'`;
+        db.query(sql, (err, expValue) => {
+        if (err) return res.status(500).json({ error: err.message });
+        // console.log(sql);
+        
+        
+            
+        const sqlNotes = `SELECT * FROM ${table} WHERE Title = "Notes"`;
+        // console.log(sqlNotes);
+        
+        db.query(sqlNotes, (err, notesValue) => {
+        if (err) return res.status(500).json({ error: err.message });
     
-    let sql = `SELECT * FROM ${table} WHERE Title = '${title}'`;
-    console.log(sql);
+        res.json({
+            expValue,
+            notesValue
+              });
+            });
+        });
+    } catch (error) {
+        res.status(500).json({ error: 'Error fetching data' });
+    }
     
-    
-    db.query(sql, (err, data) => {
-      if (err) return res.json(err.message);
-      console.log(data);
-      return res.json(data);
-    });
-})
-
+    })
 const port = 5000;
 app.listen(port, () => {
   console.log(`Server running on port ${port}`);
